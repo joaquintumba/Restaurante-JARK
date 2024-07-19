@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+a {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #218838;
+}
+
+.pedido {
+    background-color:whitesmoke;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.pedido h2 {
+    margin-top: 0;
+}
+
+.pedido p {
+    margin: 5px 0;
+}
+
+.pedido ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.pedido ul li {
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.pedido form {
+    margin-top: 10px;
+}
+
+.pedido button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pedido button:hover {
+    background-color: #0056b3;
+}

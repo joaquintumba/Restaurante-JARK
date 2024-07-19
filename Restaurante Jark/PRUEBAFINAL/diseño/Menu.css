@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#fdf8da; /* Fondo beige claro */
+    color:black; /* Texto gris oscuro */
+}
+.container {
+    padding: 20px;
+}
+.panel.panel-default {
+    background-color:#F7DC6F; /* Fondo blanco */
+    border-color: black; /* Borde gris claro */
+}
+.panel-body {
+    padding: 30px;
+}
+h1 {
+    color:black; /* Texto marrón */
+    margin-bottom: 30px;
+}
+.thumbnail {
+    border: none; /* Eliminar borde de las miniaturas */
+    border-radius: 0; /* Eliminar borde redondeado */
+}
+.caption {
+    color: #333333; /* Texto gris oscuro */
+}
+.thumbnail img {
+    max-width: 100%;
+    height: auto;
+}
+.btn.btn-success {
+    background-color: black; /* Botón marrón */
+    border-color: black; /* Borde marrón */
+}
+.btn.btn-success:hover {
+    background-color: #1d6b6e; /* Botón marrón más oscuro al pasar el ratón */
+    border-color: #8b136b; /* Borde marrón más oscuro al pasar el ratón */
+}

@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Color blanco */
+    color: #000000; /* Color negro */
+}
+header {
+    background-color:black; /* Color negro */
+    color:white;
+    padding: 15px 20px;
+    text-align: center;
+    position: relative;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color:#ffcc33; /* Color negro */
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    position: relative;
+}
+nav ul li a {
+    display: block;
+    padding: 14px 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #ffffff; /* Color gris oscuro */
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color:#ffcc33; /* Color negro */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+}
+nav ul li ul li {
+    width: 200px;
+}
+nav ul li:hover ul {
+    display: block;
+}
+main {
+    position: relative;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+}
+.content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+}
+main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+}
+footer {
+    background-color:#ffdbc8; /* Color negro */
+    color:black;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.factura {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #ffffff; /* Color blanco */
+    color: #000000; /* Color negro */
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.customer-details {
+    margin-bottom: 20px;
+}
+.order-details {
+    margin-bottom: 20px;
+}
+.text-right {
+    text-align: right;
+}
+.container {
+    padding: 20px;
+}
+.cart-link {
+    width: 100%;
+    text-align: right;
+    display: block;
+    font-size: 22px;
+}
+.product-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.btn-black {
+    background-color: #000000; /* Color negro */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-black:hover {
+    background-color: #333333; /* Color gris oscuro */
+}

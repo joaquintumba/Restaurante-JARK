@@ -1,0 +1,49 @@
+/* Estilos para el formulario de registro de cliente */
+form {
+    font-family: Arial, sans-serif; /* Tipo de fuente legible */
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: auto; /* Centra horizontalmente */
+    background-color: #fff; /* Color de fondo */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+h2 {
+    text-align: center; /* Centra el texto */
+    color: #333; /* Color del texto */
+    margin-bottom: 20px; /* Espacio inferior */
+    font-size: 24px; /* Tamaño de fuente */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Tipo de fuente */
+    font-weight: 600; /* Peso de la letra */
+}
+
+label {
+    display: block; /* Muestra cada etiqueta en una línea nueva */
+    margin-bottom: 5px; /* Espacio inferior */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="submit"],
+input[type="email"]
+
+ {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 8px; /* Espacio interior */
+    margin-bottom: 10px; /* Espacio inferior */
+    border: 1px solid #ccc; /* Borde del campo */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Considera el borde en el cálculo del tamaño */
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cursor al pasar el ratón */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Color de fondo del botón al pasar el ratón */
+}
