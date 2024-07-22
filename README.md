@@ -7,8 +7,8 @@ que descargar todos los archivos del repositorio.
 
 Para contar con la base de datos necesitaremos ingresar al phpmyadmin dandole click al boton "admin" al lado de Mysql
 que los podemos ver una vez hayamos ejecutado el XAMPP en nuestras PCs. Lo unico que debemos
-hacer en este punto es crear una base de datos llamada "carrito" en el phpmyadmin e importar el archivo .sql
-del repositorio (que se supone que estara instalada en la carpeta htdocs).
+hacer en este punto es crear una base de datos llamada "carrito" en el phpmyadmin e importar el archivo .sql que se encuentra
+en el repositorio (que se supone que estara instalada en la carpeta htdocs).
 
 ---
 
